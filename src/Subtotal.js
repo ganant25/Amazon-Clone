@@ -32,7 +32,7 @@ function Subtotal() {
 
       <button onClick={e => history.push('/')}>Add More Items to the List</button>
     </div>
-  );
+  ); 
 }
 
 export default Subtotal;
