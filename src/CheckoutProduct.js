@@ -20,8 +20,8 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
             <div className='checkoutProduct__info'>
                 <p className='checkoutProduct__title'>{title}</p>
                 <p className="checkoutProduct__price">
-                    <small>$</small>
-                    <strong>{price}</strong>
+                    <small></small>
+                    <strong></strong>
                 </p>
                 <div className="checkoutProduct__rating">
                     {Array(rating)
@@ -31,7 +31,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
                     ))}
                 </div>
                 {!hideButton && (
-                    <button onClick={removeFromBasket}>Remove from Basket</button>
+                    <button onClick={removeFromBasket}>Remove from the List</button>
                 )}
             </div>
         </div>
